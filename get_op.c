@@ -7,6 +7,7 @@ instruct_func get_op_func(char *str)
 	instruction_t instruct[] = {
 		{"push", m_push},
 		{"pall", m_pall},
+		{"pint", m_pint},
 		{NULL, NULL},
 	};
 

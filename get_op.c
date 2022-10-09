@@ -11,6 +11,7 @@ instruct_func get_op_func(char *str)
 		{"pop", m_pop},
 		{"swap", m_swap},
 		{"nop", m_nop},
+		{"add", m_add},
 		{NULL, NULL},
 	};
 

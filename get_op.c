@@ -8,6 +8,7 @@ instruct_func get_op_func(char *str)
 		{"push", m_push},
 		{"pall", m_pall},
 		{"pint", m_pint},
+		{"pop", m_pop},
 		{NULL, NULL},
 	};
 
